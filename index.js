@@ -1,3 +1,4 @@
+let gridSize = 16;
 const container = document.querySelector("div.container");
 
 const square = document.createElement("div");
@@ -25,4 +26,12 @@ for(let i = 0; i < 16; i++){
     }
 }
 
+const button = document.querySelector("#askSize");
+
+button.addEventListener("click", () =>{
+    while (gridSize < 1 || gridSize > 100){
+        gridSize = prompt("Enter new grid size");
+    }
+    
+})
 
