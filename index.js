@@ -20,7 +20,7 @@ function createGrid(){
             gridContainerClone.appendChild(squareClone);
     
             squareClone.addEventListener("mouseenter", (e) =>{
-                e.target.style.backgroundColor = "red";
+                e.target.style.backgroundColor = "blue";
             });
         }
     }
