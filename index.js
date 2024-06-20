@@ -17,7 +17,7 @@ function createGrid(){
         
         for(let j = 0; j < gridSize; j++){
             let squareClone = square.cloneNode(true);
-            squareClone.textContent = i*gridSize + j;
+            //squareClone.textContent = i*gridSize + j;
             gridContainerClone.appendChild(squareClone);
     
             squareClone.addEventListener("mouseenter", (e) =>{
