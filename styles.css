@@ -11,7 +11,3 @@ div.gridContainer {
 div.grid{
     flex: auto;
 }
-
-.hover{
-    background-color: red;
-}
