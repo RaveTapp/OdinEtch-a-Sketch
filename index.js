@@ -35,6 +35,7 @@ button.addEventListener("click", () =>{
     do {
         gridSize = prompt("Enter new grid size");
     } while (gridSize < 1 || gridSize > 100)
+    container.textContent = "";
     createGrid();
 })
 
